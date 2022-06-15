@@ -48,7 +48,7 @@ export default async function internetLeastUsers(data) {
 
   const bottomNineCountries = sortCountriesByPercentage(cleanedData).slice(0, 9);
 
-  console.log(bottomNineCountries);
+  // console.log(bottomNineCountries);
 
   const subgroups = ['internet_users', 'non_internet_users'];
   
